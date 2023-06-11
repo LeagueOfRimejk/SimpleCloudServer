@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(242, 242, 242);
+}
+
+a {
+    text-decoration: none;
+    margin-bottom: 1%;
+    background: cornflowerblue;
+    padding: 2% 2%;
+    color: white;
+    border-radius: 10%;
+    font-size: 2rem;
+    box-shadow: 
+        1px 1px 5px 1px rgb(70, 70, 70),
+        -1px -1px 5px 1px rgb(240, 240, 240);
+}
+
+.button {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.icon {
+    width: 15%;
+    height: 15%;
+    background: transparent;
+    background-image: url("/static/images/download_ico.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 5%;
+}
+
+.accent {
+    margin-top: auto;
+    width: 100%;
+    height: 30%;
+    background: cornflowerblue;
+    box-shadow: 
+        1px 1px 3px 1px rgba(70, 70, 70, 1);
+}

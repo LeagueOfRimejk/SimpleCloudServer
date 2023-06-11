@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: rgb(245, 245, 245);
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+}
+
+.file--tile {
+    height: 10%;
+    width: 40%;
+    background: white;
+    margin-bottom: 2%;
+    box-shadow: 1px 1px 5px 0px rgb(120, 120, 120);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.file--left {
+    margin-left: 3%;
+}
+
+.file--right {
+    margin-right: 5%;
+    background: cornflowerblue;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.file--name {
+    font-size: 1.5em;
+}
+
+.file--download {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 1050px) {
+    .container {
+        padding: 5% 2%;
+    }
+    
+    .file--tile {
+        min-width: 100%;
+    }
+
+    .file--name {
+        font-size: 1.1em;
+    }
+
+    .file--download {
+        font-size: 0.9em;
+    }
+}

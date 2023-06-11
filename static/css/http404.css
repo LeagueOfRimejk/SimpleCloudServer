@@ -1,0 +1,46 @@
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    background: rgb(242, 242, 242);
+    height: 100%;
+    width: 100%;
+}
+
+.msg {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.msg div:nth-child(1) {
+    font-size: 4.2rem;
+    color: cornflowerblue;
+}
+
+.msg div:nth-child(2) {
+    font-size: 1.7rem;
+    color: rgba(130, 130, 130, 1);
+}
+
+#accent {
+    height: 30%;
+    width: 100%;
+    background: cornflowerblue;
+    box-shadow: 
+        1px 1px 3px 1px rgba(70, 70, 70, 1);
+}
